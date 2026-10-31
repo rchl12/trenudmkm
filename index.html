@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TrendUMKM - Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<input type="checkbox" id="tog" hidden>
+<header class="top">
+ <label for="tog" class="menu" aria-label="Buka menu">&#9776;</label>
+ <h1>TrendUMKM</h1>
+ <span class="bell" aria-label="Notifikasi">&#128276;<i class="dot"></i></span>
+</header>
+<label for="tog" class="ov"></label>
+<nav class="side">
+ <div class="me"><div class="av">R</div><b>Halo, Rizki!</b><small>UMKM Owner</small></div>
+ <a class="on" href="index.html">Dashboard</a>
+ <a href="riset-tren.html">Riset Tren</a>
+ <a href="rekomendasi.html">Rekomendasi Strategi</a>
+ <a href="kelola-umkm.html">Kelola UMKM</a>
+ <a href="bantuan.html">Bantuan &amp; Dukungan</a>
+</nav>
+<main>
+ <div class="head">
+  <div><h2>Dashboard</h2><p>Analisis tren untuk strategi pemasaran UMKM &middot; Diperbarui 15 Okt 2024, 09:30</p></div>
+  <a class="btn" href="#">Ekspor laporan</a>
+ </div>
+ <section class="stats">
+  <div class="card stat s1"><small>Total pencarian</small><strong>+12,5%</strong><span class="up">dibanding 30 hari sebelumnya</span></div>
+  <div class="card stat"><small>Tren naik</small><strong>8 keyword</strong><span class="flat">4 naik, 2 stabil, 2 turun</span></div>
+  <div class="card stat s3"><small>Wilayah terpanas</small><strong>Jawa Barat</strong><span style="color:#b45309">Skor 92/100</span></div>
+ </section>
+ <section class="grid">
+  <div class="card">
+   <h3>Tren keyword: Kopi Susu</h3>
+   <p class="sub">Minat pencarian 90 hari terakhir (skala 0-100)</p>
+   <svg viewBox="0 0 640 260" role="img" aria-label="Grafik tren Kopi Susu"><line x1="40" x2="620" y1="228.0" y2="228.0" stroke="#e1e8f0"/><text x="32" y="232.0" font-size="11" fill="#5b6784" text-anchor="end">0</text><line x1="40" x2="620" y1="185.60000000000002" y2="185.60000000000002" stroke="#e1e8f0"/><text x="32" y="189.60000000000002" font-size="11" fill="#5b6784" text-anchor="end">20</text><line x1="40" x2="620" y1="143.2" y2="143.2" stroke="#e1e8f0"/><text x="32" y="147.2" font-size="11" fill="#5b6784" text-anchor="end">40</text><line x1="40" x2="620" y1="100.80000000000001" y2="100.80000000000001" stroke="#e1e8f0"/><text x="32" y="104.80000000000001" font-size="11" fill="#5b6784" text-anchor="end">60</text><line x1="40" x2="620" y1="58.400000000000006" y2="58.400000000000006" stroke="#e1e8f0"/><text x="32" y="62.400000000000006" font-size="11" fill="#5b6784" text-anchor="end">80</text><line x1="40" x2="620" y1="16.0" y2="16.0" stroke="#e1e8f0"/><text x="32" y="20.0" font-size="11" fill="#5b6784" text-anchor="end">100</text><polygon points="40.0,211.0 92.7,164.4 145.5,189.8 198.2,153.8 250.9,117.8 303.6,151.7 356.4,155.9 409.1,168.6 461.8,69.0 514.5,100.8 567.3,54.2 620.0,33.0 620.0,228 40.0,228" fill="#0f9d9a" opacity=".14"/><polyline points="40.0,211.0 92.7,164.4 145.5,189.8 198.2,153.8 250.9,117.8 303.6,151.7 356.4,155.9 409.1,168.6 461.8,69.0 514.5,100.8 567.3,54.2 620.0,33.0" fill="none" stroke="#0f9d9a" stroke-width="3" stroke-linejoin="round"/><circle cx="620.0" cy="33.0" r="5" fill="#0f9d9a"/><text x="40.0" y="250" font-size="11" fill="#5b6784" text-anchor="middle">Jul</text><text x="198.2" y="250" font-size="11" fill="#5b6784" text-anchor="middle">Agu</text><text x="356.4" y="250" font-size="11" fill="#5b6784" text-anchor="middle">Sep</text><text x="514.5" y="250" font-size="11" fill="#5b6784" text-anchor="middle">Okt</text></svg>
+   <p class="sub">Pencarian kopi susu naik 22% dalam 90 hari terakhir. Puncak minat pada September-Oktober 2024.</p>
+  </div>
+  <div class="card">
+   <h3>Heatmap minat per wilayah</h3>
+   <p class="sub">Skor minat 0-100 per provinsi</p>
+   <div class="heat"><div class="tile" style="background:hsl(4 85% 40%)">Jawa Barat<b>92</b></div><div class="tile" style="background:hsl(8 85% 42%)">DKI Jakarta<b>85</b></div><div class="tile" style="background:hsl(11 85% 43%)">Jawa Timur<b>78</b></div><div class="tile" style="background:hsl(18 85% 46%)">Bali<b>65</b></div><div class="tile" style="background:hsl(18 85% 46%)">Sumatera Utara<b>65</b></div><div class="tile" style="background:hsl(24 85% 49%)">Sulawesi Selatan<b>54</b></div><div class="tile" style="background:hsl(31 85% 52%)">Kalimantan Timur<b>41</b></div><div class="tile" style="background:hsl(41 85% 57%)">Papua<b>22</b></div></div>
+   <div class="legend"></div><div><span>Rendah</span><span>Tinggi</span></div>
+  </div>
+  <div class="card">
+   <h3>Kueri terkait</h3>
+   <p class="sub">Yang sedang dicari orang bersama keyword ini</p>
+   <div class="cols">
+    <div><h4>Naik pesat</h4><div><span>kopi susu gula aren</span><em>+45%</em></div><div><span>kopi susu boba</span><em>+29%</em></div><div><span>kopi susu kekinian</span><em>+22%</em></div></div>
+    <div><h4>Populer</h4><div><span>harga kopi susu 1 liter</span></div><div><span>resep kopi susu rumahan</span></div><div><span>supplier kopi susu UMKM</span></div></div>
+   </div>
+  </div>
+  <div class="card rek">
+   <h3>Rekomendasi konten marketing</h3>
+   <p><b>Konten TikTok/Reels: 5 varian kopi susu paling dicari bulan ini</b><small>Video pendek, pakai hashtag #KopiSusu #UMKMKopi</small></p>
+   <p><b>Waktu posting terbaik: 18.00 - 21.00 WIB</b><small>Engagement tertinggi pada malam Senin dan Kamis</small></p>
+   <p><b>Fokus wilayah: Jawa Barat &amp; DKI Jakarta</b><small>Buat promo lokal dan kolaborasi dengan cafe di Bandung dan Jakarta</small></p>
+  </div>
+ </section>
+</main>
+<nav class="bn"><a class="on" href="index.html">Dashboard</a><a href="kelola-umkm.html">Produk</a><a href="riset-tren.html">Insight</a><a href="bantuan.html">Profil</a></nav>
+</body></html>
