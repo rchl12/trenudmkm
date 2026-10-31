@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kelola UMKM - TrendUMKM</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<input type="checkbox" id="tog" hidden>
+<header class="top">
+ <label for="tog" class="menu" aria-label="Buka menu">&#9776;</label>
+ <h1>TrendUMKM</h1>
+ <span class="bell" aria-label="Notifikasi">&#128276;<i class="dot"></i></span>
+</header>
+<label for="tog" class="ov"></label>
+<nav class="side">
+ <div class="me"><div class="av">R</div><b>Halo, Rizki!</b><small>UMKM Owner</small></div>
+ <a href="index.html">Dashboard</a>
+ <a href="riset-tren.html">Riset Tren</a>
+ <a href="rekomendasi.html">Rekomendasi Strategi</a>
+ <a class="on" href="kelola-umkm.html">Kelola UMKM</a>
+ <a href="bantuan.html">Bantuan &amp; Dukungan</a>
+ </nav>
+<main>
+ <div class="head"><div><h2>Kelola UMKM</h2><p>Daftar usaha yang Anda pantau</p></div></div>
+<div class="two w">
+ <div class="card"><h3>Daftar UMKM</h3><p class="sub">4 usaha terdaftar</p>
+  <div class="scroll"><table class="tbl"><tr><th>Nama</th><th>Kategori</th><th>Kota</th><th>Keyword utama</th><th>Status</th></tr><tr><td><b>Kopi Senja</b></td><td>Minuman</td><td>Bandung</td><td>kopi susu</td><td><span class="badge b-up">Aktif</span></td></tr><tr><td><b>Keripik Bu Ani</b></td><td>Makanan ringan</td><td>Bandar Lampung</td><td>keripik pisang</td><td><span class="badge b-up">Aktif</span></td></tr><tr><td><b>Batik Nusa</b></td><td>Fashion</td><td>Solo</td><td>batik modern</td><td><span class="badge b-warn">Perlu update</span></td></tr><tr><td><b>Seblak Mantap</b></td><td>Kuliner</td><td>Jakarta</td><td>seblak instan</td><td><span class="badge b-up">Aktif</span></td></tr></table></div></div>
+ <div class="card"><h3>Tambah UMKM</h3>
+  <label class="f" for="n">Nama usaha</label><input class="in" id="n" type="text">
+  <label class="f" for="k">Kategori</label><select class="in" id="k"><option>Minuman</option><option>Makanan ringan</option><option>Fashion</option><option>Kuliner</option></select>
+  <label class="f" for="c">Kota</label><input class="in" id="c" type="text">
+  <label class="f" for="w">Keyword utama</label><input class="in" id="w" type="text">
+  <p style="margin:16px 0 0"><a class="btn" href="#">Simpan UMKM</a></p>
+  <p class="note">Formulir ini masih tampilan saja. Untuk menyimpan data, hubungkan ke PHP dan MySQL.</p></div></div>
+</main>
+<nav class="bn"><a href="index.html">Dashboard</a><a class="on" href="kelola-umkm.html">Produk</a><a href="riset-tren.html">Insight</a><a href="bantuan.html">Profil</a></nav>
+</body></html>

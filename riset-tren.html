@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Riset Tren - TrendUMKM</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<input type="checkbox" id="tog" hidden>
+<header class="top">
+ <label for="tog" class="menu" aria-label="Buka menu">&#9776;</label>
+ <h1>TrendUMKM</h1>
+ <span class="bell" aria-label="Notifikasi">&#128276;<i class="dot"></i></span>
+</header>
+<label for="tog" class="ov"></label>
+<nav class="side">
+ <div class="me"><div class="av">R</div><b>Halo, Rizki!</b><small>UMKM Owner</small></div>
+ <a href="index.html">Dashboard</a>
+ <a class="on" href="riset-tren.html">Riset Tren</a>
+ <a href="rekomendasi.html">Rekomendasi Strategi</a>
+ <a href="kelola-umkm.html">Kelola UMKM</a>
+ <a href="bantuan.html">Bantuan &amp; Dukungan</a>
+ </nav>
+<main>
+ <div class="head"><div><h2>Riset Tren</h2><p>Pantau keyword yang sedang naik, stabil, atau turun</p></div></div>
+<div class="stack">
+ <div class="card"><label class="f" for="q" style="margin-top:0">Cari keyword</label>
+  <input class="in" id="q" type="search" placeholder="Contoh: kopi susu, keripik pisang">
+  <p class="note">Kolom ini masih tampilan saja. Pencarian aktif butuh PHP atau JavaScript.</p></div>
+ <div class="card"><h3>Keyword terpantau</h3><p class="sub">Skor minat 0-100, perubahan dihitung 90 hari terakhir</p>
+  <div class="scroll"><table class="tbl"><tr><th>Keyword</th><th>Minat</th><th>Skor</th><th>Perubahan</th><th>Status</th></tr><tr><td><b>kopi susu</b></td><td><div class="bar"><i style="width:92%"></i></div></td><td>92</td><td>+22%</td><td><span class="badge b-up">Naik</span></td></tr><tr><td><b>matcha latte</b></td><td><div class="bar"><i style="width:78%"></i></div></td><td>78</td><td>+18%</td><td><span class="badge b-up">Naik</span></td></tr><tr><td><b>es teh jumbo</b></td><td><div class="bar"><i style="width:70%"></i></div></td><td>70</td><td>+15%</td><td><span class="badge b-up">Naik</span></td></tr><tr><td><b>seblak instan</b></td><td><div class="bar"><i style="width:66%"></i></div></td><td>66</td><td>+11%</td><td><span class="badge b-up">Naik</span></td></tr><tr><td><b>keripik pisang</b></td><td><div class="bar"><i style="width:51%"></i></div></td><td>51</td><td>+3%</td><td><span class="badge b-flat">Stabil</span></td></tr><tr><td><b>tahu crispy</b></td><td><div class="bar"><i style="width:48%"></i></div></td><td>48</td><td>-1%</td><td><span class="badge b-flat">Stabil</span></td></tr><tr><td><b>batik modern</b></td><td><div class="bar"><i style="width:50%"></i></div></td><td>50</td><td>-8%</td><td><span class="badge b-down">Turun</span></td></tr><tr><td><b>tas rajut</b></td><td><div class="bar"><i style="width:35%"></i></div></td><td>35</td><td>-12%</td><td><span class="badge b-down">Turun</span></td></tr></table></div></div>
+ <div class="two">
+  <div class="card s1"><h3>Ringkasan</h3><p class="sub">4 keyword naik, 2 stabil, 2 turun.</p><p style="margin:0;font-size:14px">Keyword dengan kenaikan tertinggi: <b>kopi susu (+22%)</b>.</p></div>
+  <div class="card s3"><h3>Perlu perhatian</h3><p class="sub">Keyword yang menurun</p><p style="margin:0;font-size:14px"><b>tas rajut (-12%)</b> dan <b>batik modern (-8%)</b>. Pertimbangkan promo atau varian baru.</p></div>
+ </div></div>
+</main>
+<nav class="bn"><a href="index.html">Dashboard</a><a href="kelola-umkm.html">Produk</a><a class="on" href="riset-tren.html">Insight</a><a href="bantuan.html">Profil</a></nav>
+</body></html>
